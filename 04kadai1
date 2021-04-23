@@ -1,14 +1,10 @@
 ```uml
 @startuml
-start
 :health=10;
-
 if (health <= 20) then (true)
 :「宿屋に泊まる」と表示;
 else
 :「頑張ってレベルを上げる」と表示;
 endif
-
-end
 @enduml
 ```
